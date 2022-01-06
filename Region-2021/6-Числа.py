@@ -12,10 +12,10 @@ if k == '0':
         else:
             break
     print(n*len(x))
-
 else:
-#   for i in x:
-#        x = i-1
-#        if x != i:
-#            1W 
-    print(0)
+    while True:
+        if max(x.count(x[0]), x.count(x[-1])) < len(x)-1:
+            x = str(int(x) + 1)
+        else:
+            break
+    print(x)
