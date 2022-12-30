@@ -23,7 +23,7 @@ print(m)
 #		arr[i], arr[j] = arr[j], arr[i]
 #		temp = 0
 #		for k in range(n):
-#			temp += (k+1) * arr[k]
+#			temp += (k+1) * arr[k]S
 #		arr[j], arr[i] = arr[i], arr[j]
 #		s = max(s, temp)
 #print(s)
