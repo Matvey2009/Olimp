@@ -1,5 +1,1 @@
-n, m = map(int, input().split())
-if ((n+m) % 2 == 0):
-	print("Woodman")
-else:
-	print("Elly")
+print("Elly") if sum(map(int, input().split())) & True else print("Woodman")
